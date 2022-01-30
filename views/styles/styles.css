@@ -39,6 +39,10 @@ a{
     .about{
         margin-top: 50%;
     }
+    ol{
+        flex-direction: column;
+        align-items: center;
+    };
 }
 nav li:hover{    
     border-bottom: solid 5px yellowgreen;
@@ -67,7 +71,9 @@ nav li:hover{
       width: 100%;
     }
   }
-
+.bold{
+    font-weight: 700;
+}
 .about{
     margin-top: 200px;
     font-weight: 500;
@@ -84,4 +90,30 @@ nav li:hover{
 .myImage{
     position: fixed;
     z-index: -1;
+}
+
+ol{
+    padding: 20px;
+    background-color: black;
+    opacity: 30%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 1.6em;
+}
+.experience ol:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.qualification{
+    background-color: rgb(43, 43, 116);
+    padding: 50px;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
 }
