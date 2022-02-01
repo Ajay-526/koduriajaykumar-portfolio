@@ -95,7 +95,7 @@ nav li:hover{
     z-index: -1;
 }
 
-ol{
+.experience ol{
     padding: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
@@ -140,4 +140,15 @@ ol:nth-child(3){
 }
 td{
    padding: 10px 10px;
+}
+.softech{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 10px;
+}
+.dash{
+    border-bottom: 1px solid white;
+}
+.points{
+   font-size: 1.3em;
+   letter-spacing: 1px;
 }
