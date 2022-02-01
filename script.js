@@ -1,10 +1,9 @@
-
 $(document).ready(function(){
     $(".ssc").hide();
     $(".inter").hide();
-    $(".degree").hide();
     $(".s").click(function(){
       $(".ssc").toggle();
+      $(".ssc").focus();
       $(".inter").hide();
       $(".degree").hide();  
     })
@@ -19,3 +18,4 @@ $(document).ready(function(){
         $(".inter").hide();
       })
   });
+
